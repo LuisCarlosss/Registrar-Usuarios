@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Crud</title>
+</head>
+<body>
+    <main>
+        <h1>Crud - Register User</h1>
+        <form class="add-form">
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="email">
+            <input type="passworrd" placeholder="password">
+            <button type="submit">+</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Username</th>
+                    <th>email</th>
+                    <th>password</th>
+                    <th>actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10</td>
+                    <td>pedro</td>
+                    <td>pedro@gmail.com</td>
+                    <td>1234567</td>
+                    <td>
+                        <button class="btn-action">
+                        <span class="material-symbols-outlined">
+                            edit
+                            </span>
+                    </button>
+                        <button class="btn-action">
+                            <span class="material-symbols-outlined">
+                                delete
+                                </span>
+                        </button>
+                    </td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
